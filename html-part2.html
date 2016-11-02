@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Part 2 - More HTML elements &#8212; HTML5 and CSS3 for teens</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootswatch-3.3.6/flatly/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2016-11-02',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="HTML5 and CSS3 for teens" href="index.html" />
+    <link rel="up" title="HTML" href="html.html" />
+    <link rel="next" title="CSS" href="css.html" />
+    <link rel="prev" title="Part 1 - Elements and tags" href="html-part1.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Initiation to HTML and CSS</a>
+        <span class="navbar-text navbar-version pull-left"><b>2016-11-02</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Before we start</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="html.html">HTML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="css.html">CSS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="practical-work.html">Practical Work</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Part 2 - More HTML elements</a><ul>
+<li><a class="reference internal" href="#nested-elements">Nested elements</a></li>
+<li><a class="reference internal" href="#nested-elements-be-careful">Nested elements: be careful!</a></li>
+<li><a class="reference internal" href="#headings">Headings</a></li>
+<li><a class="reference internal" href="#headings-expected-result">Headings - expected result</a></li>
+<li><a class="reference internal" href="#lists">Lists</a></li>
+<li><a class="reference internal" href="#ordered-list">Ordered list</a></li>
+<li><a class="reference internal" href="#unordered-list">Unordered list</a></li>
+<li><a class="reference internal" href="#make-your-own-lists">Make your own lists</a></li>
+<li><a class="reference internal" href="#make-your-own-lists-expected-result">Make your own lists - expected result</a></li>
+<li><a class="reference internal" href="#summary-and-a-piece-of-advice">Summary and a piece of advice</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="html-part1.html" title="Previous Chapter: Part 1 - Elements and tags"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Part 1 - Elem...</span>
+    </a>
+  </li>
+  <li>
+    <a href="css.html" title="Next Chapter: CSS"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">CSS &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="_sources/html-part2.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li><a class="reference internal" href="#">Part 2 - More HTML elements</a><ul>
+<li><a class="reference internal" href="#nested-elements">Nested elements</a></li>
+<li><a class="reference internal" href="#nested-elements-be-careful">Nested elements: be careful!</a></li>
+<li><a class="reference internal" href="#headings">Headings</a></li>
+<li><a class="reference internal" href="#headings-expected-result">Headings - expected result</a></li>
+<li><a class="reference internal" href="#lists">Lists</a></li>
+<li><a class="reference internal" href="#ordered-list">Ordered list</a></li>
+<li><a class="reference internal" href="#unordered-list">Unordered list</a></li>
+<li><a class="reference internal" href="#make-your-own-lists">Make your own lists</a></li>
+<li><a class="reference internal" href="#make-your-own-lists-expected-result">Make your own lists - expected result</a></li>
+<li><a class="reference internal" href="#summary-and-a-piece-of-advice">Summary and a piece of advice</a></li>
+</ul>
+</li>
+</ul>
+
+  <li>
+    <a href="html-part1.html" title="Previous Chapter: Part 1 - Elements and tags"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Part 1 - Elem...</span>
+    </a>
+  </li>
+  <li>
+    <a href="css.html" title="Next Chapter: CSS"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">CSS &raquo;</span>
+    </a>
+  </li>
+<div id="sourcelink">
+  <a href="_sources/html-part2.txt"
+     rel="nofollow">Source</a>
+</div>
+  <h3>Slides</h3>
+  <ul class="this-page-menu">
+    <li><a href="slides/html-part2.html"
+           rel="nofollow">View as slides</a></li>
+  </ul>
+<form action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="part-2-more-html-elements">
+<h1>Part 2 - More HTML elements<a class="headerlink" href="#part-2-more-html-elements" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/html-part2.html#part-2-more-html-elements" title="Slides">§</a></h1>
+<div class="section" id="nested-elements">
+<h2>Nested elements<a class="headerlink" href="#nested-elements" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/html-part2.html#nested-elements" title="Slides">§</a></h2>
+<p>HTML elements can be <strong>nested</strong> (elements can contain other elements).</p>
+<p>Example:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span> This is a <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>very important<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span> paragraph.<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>And this is the result:</p>
+<em> This is a <strong>very important</strong> paragraph.</em></div>
+<div class="section" id="nested-elements-be-careful">
+<h2>Nested elements: be careful!<a class="headerlink" href="#nested-elements-be-careful" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/html-part2.html#nested-elements-be-careful" title="Slides">§</a></h2>
+<p>However, be careful when you include an element in another.</p>
+<p>For example, this is not correct:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span> This is a <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>very important<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span> paragraph.<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<em> This is a <strong>very important</em> paragraph.</strong><p>When incorrectly nested, Weird behavior and unexpected errors can occur!</p>
+</div>
+<div class="section" id="headings">
+<h2>Headings<a class="headerlink" href="#headings" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/html-part2.html#headings" title="Slides">§</a></h2>
+<p>We have already seen the <code class="code html docutils literal"><span class="pre">h1</span></code> element to define a title (headings).</p>
+<p>You can have several levels of headings in your document: use <code class="code html docutils literal"><span class="pre">h2</span></code> for second level, <code class="code html docutils literal"><span class="pre">h3</span></code> for third level and so on.</p>
+<p>Open <code class="code filename html docutils literal"><span class="pre">page3.html</span></code> and edit the document to include headings.</p>
+<ul class="simple">
+<li>&#8220;What will I learn today?&#8221; should be a level 1 headings.</li>
+<li>&#8220;About the web&#8221;, &#8220;About HTML&#8221;, and &#8220;About CSS&#8221; should be level 2 headings.</li>
+</ul>
+<p>On the slide, you will see the expected result.</p>
+</div>
+<div class="section" id="headings-expected-result">
+<h2>Headings - expected result<a class="headerlink" href="#headings-expected-result" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/html-part2.html#headings-expected-result" title="Slides">§</a></h2>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="../_static/headings.png"><img alt="expected result with headings" src="../_static/headings.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="lists">
+<h2>Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/html-part2.html#lists" title="Slides">§</a></h2>
+<p>HTML defines two types of lists: ordered lists (<strong>ol</strong>), and unordered lists (<strong>ul</strong>).</p>
+<p>In both, a list item is identified by the <strong>li</strong> element.</p>
+<p>Let&#8217;s see some examples.</p>
+</div>
+<div class="section" id="ordered-list">
+<h2>Ordered list<a class="headerlink" href="#ordered-list" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/html-part2.html#ordered-list" title="Slides">§</a></h2>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">ol</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Code<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Be proud!<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">ol</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<ol>
+  <li>Code</li>
+  <li>Test</li>
+  <li>Be proud!</li>
+</ol></div>
+<div class="section" id="unordered-list">
+<h2>Unordered list<a class="headerlink" href="#unordered-list" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/html-part2.html#unordered-list" title="Slides">§</a></h2>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>HTML<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>CSS<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>JS<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+</ul></div>
+<div class="section" id="make-your-own-lists">
+<h2>Make your own lists<a class="headerlink" href="#make-your-own-lists" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/html-part2.html#make-your-own-lists" title="Slides">§</a></h2>
+<p>Open <code class="code filename html docutils literal"><span class="pre">page3.html</span></code> and use the elements you&#8217;ve just discovered to add lists.</p>
+<p>The text is already written for you.</p>
+<p>The expected result is shown just after.</p>
+</div>
+<div class="section" id="make-your-own-lists-expected-result">
+<h2>Make your own lists - expected result<a class="headerlink" href="#make-your-own-lists-expected-result" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/html-part2.html#make-your-own-lists-expected-result" title="Slides">§</a></h2>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="../_static/lists.png"><img alt="expected result with lists" src="../_static/lists.png" style="width: 65%;" /></a>
+</div>
+<p>If you have time, add a link from this page to <code class="code filename html docutils literal"><span class="pre">page2.html</span></code>, and from <code class="code filename html docutils literal"><span class="pre">page2.html</span></code> to this page!</p>
+</div>
+<div class="section" id="summary-and-a-piece-of-advice">
+<h2>Summary and a piece of advice<a class="headerlink" href="#summary-and-a-piece-of-advice" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/html-part2.html#summary-and-a-piece-of-advice" title="Slides">§</a></h2>
+<ul class="simple">
+<li>Make sure your elements are correctly nested!</li>
+<li>(Nearly) all elements must be closed (except in some very rare cases such as img).</li>
+<li>Piece of advice: have you tried <code class="code shortcut html docutils literal"><span class="pre">F12</span></code> on your web browser? It is sometimes helpful... especially when you have a bug!</li>
+</ul>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016-2016, Amélie Cordier.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

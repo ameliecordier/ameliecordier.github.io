@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Part 1 - Elements and tags &mdash; HTML5 and CSS3 for teens</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/styles.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/single.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../_static/../_static/ac-slides.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2016-11-02',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/common.js"></script>
+    
+    <script type="text/javascript" src="../_static/slides.js"></script>
+    <script type="text/javascript" src="../_static/sync.js"></script>
+    <script type="text/javascript" src="../_static/controller.js"></script>
+    <script type="text/javascript" src="../_static/init.js"></script>
+    
+    
+    <link rel="top" title="HTML5 and CSS3 for teens" href="../index.html" />
+    <link rel="up" title="HTML" href="index.html" />
+    <link rel="next" title="Part 2 - More HTML elements" href="html-part2.html" />
+    <link rel="prev" title="HTML" href="index.html" /> 
+  </head>
+  <body>
+
+<section
+   id="slide_container"
+   class='slides layout-regular'>
+
+
+  
+<article class="slide level-1" id="part-1-elements-and-tags">
+
+<h1>Part 1 - Elements and tags<a class="headerlink" href="../../html/html-part1.html#part-1-elements-and-tags" title="View HTML">§</a></h1>
+
+
+
+
+<div class="slide-no">1</div>
+
+
+</article>
+<article class="slide level-2" id="step-1-two-sides-of-an-html-page-code-and-display">
+
+<h2>Step 1 - Two sides of an HTML page: code and display<a class="headerlink" href="../../html/html-part1.html#step-1-two-sides-of-an-html-page-code-and-display" title="View HTML">§</a></h2>
+
+<ul class="simple">
+<li>Open <code class="code filename html docutils literal"><span class="pre">page0.html</span></code> in a web browser. Don't close it.</li>
+<li>Open <code class="code filename html docutils literal"><span class="pre">page0.html</span></code> in a text editor and observe the code. Don't close this file neither.</li>
+<li>Learn to switch between the text editor and the browser, for example, by using <code class="docutils literal"><span class="pre">Alt+Tab</span></code> on the keyboard.</li>
+</ul>
+
+
+
+<div class="slide-no">2</div>
+
+
+</article>
+<article class="slide level-2" id="step-2-your-first-edit">
+
+<h2>Step 2 - Your first edit<a class="headerlink" href="../../html/html-part1.html#step-2-your-first-edit" title="View HTML">§</a></h2>
+
+<ul class="simple">
+<li>Edit the code of the <code class="code filename html docutils literal"><span class="pre">page0.html</span></code> in the text editor. For example, add your <strong>firstname</strong> where it should be.</li>
+<li>Save your changes in the text editor.</li>
+<li>Reload the page in the browser and make sure your changes are visible.</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Learn the shortcuts: <code class="code shortcut html docutils literal"><span class="pre">F5</span></code> to reload the page in the browser, <code class="code shortcut html docutils literal"><span class="pre">Ctrl+S</span></code> to save your file in the editor.</p>
+</div>
+
+
+
+<div class="slide-no">3</div>
+
+
+</article>
+<article class="slide level-2" id="remember">
+
+<h2>Remember...<a class="headerlink" href="../../html/html-part1.html#remember" title="View HTML">§</a></h2>
+
+<ul class="simple">
+<li>Do not forget to save your edits in the text editor before refreshing a page.</li>
+<li>You do not need to close the editor nor the web browser.</li>
+<li>The <code class="docutils literal"><span class="pre">Alt+Tab</span></code> shortcut is convenient to switch between the two applications.</li>
+</ul>
+
+
+
+<div class="slide-no">4</div>
+
+
+</article>
+<article class="slide level-2" id="step-3-html-tags">
+
+<h2>Step 3 - HTML tags<a class="headerlink" href="../../html/html-part1.html#step-3-html-tags" title="View HTML">§</a></h2>
+
+<p>HTML is based on <span class="dfn">elements</span>. An element indicates that a part of the document has a specific role.</p>
+<p>For example, if you want to stress your name in the sentence, you can use the <code class="code html docutils literal"><span class="pre">em</span></code> element.</p>
+<p>The <code class="code html docutils literal"><span class="pre">em</span></code> element is identified by a start tag and a end tag.</p>
+<p>Here is an example. Try it!</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span>My name is <span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span>Amélie<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>And this is the result:</p>
+<section class="rendered">
+  My name is <em>Amélie</em>
+</section>
+
+
+<div class="slide-no">5</div>
+
+
+</article>
+<article class="slide level-2" id="understanding-html-tags">
+
+<h2>Understanding HTML tags<a class="headerlink" href="../../html/html-part1.html#understanding-html-tags" title="View HTML">§</a></h2>
+
+<p>Most of the time, HTML elements have a <em>start tag</em> and a <em>end tag</em>.</p>
+<p>Tags names are written inside angle brackets (greater than &amp; less than symbols: “&lt;” &amp; “&gt;”)</p>
+<p>In the end tag, the tag name is preceded with a forward slash (/) sign.</p>
+<p>For the element <strong>em</strong>, the start tag and end tag are:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span> and <span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+
+
+
+<div class="slide-no">6</div>
+
+
+</article>
+<article class="slide level-2" id="step-4-let-s-try-another-tag">
+
+<h2>Step 4 - Let's try another tag<a class="headerlink" href="../../html/html-part1.html#step-4-let-s-try-another-tag" title="View HTML">§</a></h2>
+
+<p>This is your <strong>first</strong> web page, it is very important!</p>
+<p>Try to use the <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;</span></span><span class="name tag"><span class="pre">strong</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code> tag around the word <strong>first</strong> in the web page.</p>
+<p>Admire the result in your browser.</p>
+
+
+
+<div class="slide-no">7</div>
+
+
+</article>
+<article class="slide level-2" id="step-5-more-html-tags">
+
+<h2>Step 5 - More HTML tags<a class="headerlink" href="../../html/html-part1.html#step-5-more-html-tags" title="View HTML">§</a></h2>
+
+<ul>
+<li><p class="first">Open <code class="code filename html docutils literal"><span class="pre">page1.html</span></code> on your text editor and on your web browser (a good idea is to use a new tab in both cases).</p>
+</li>
+<li><dl class="first docutils">
+<dt>Hum... the presentation is not what we expect. Let's change that!</dt>
+<dd><ul class="first last simple">
+<li>The tag <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;</span></span><span class="name tag"><span class="pre">h1</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code> is for headings. Use it to define the title of the page.</li>
+<li>The tag <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;</span></span><span class="name tag"><span class="pre">p</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code> is for paragraph. Try it!</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Check the result on your web browser.</p>
+</li>
+</ul>
+
+
+
+<div class="slide-no">8</div>
+
+
+</article>
+<article class="slide level-2" id="step-6-image-1-3">
+
+<h2>Step 6 - Image (1/3)<a class="headerlink" href="../../html/html-part1.html#step-6-image-1-3" title="View HTML">§</a></h2>
+
+<p>It's time to add an image in your page.</p>
+<p>The element for including an image is <strong>em</strong> and the corresponding tag is <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;</span></span><span class="name tag"><span class="pre">img</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code>.</p>
+<p>Here is an example:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;TBL.jpg&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;Inventor of the Web: Tim Berners Lee&quot;</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>And this is the result:</p>
+<section class="rendered">
+      <img width="45%" style="float:right;" src="../_static/TBL.jpg" alt="Inventor of the Web: Tim Berners Lee">
+</section>
+
+
+<div class="slide-no">9</div>
+
+
+</article>
+<article class="slide level-2" id="step-6-image-2-3">
+
+<h2>Step 6 - Image (2/3)<a class="headerlink" href="../../html/html-part1.html#step-6-image-2-3" title="View HTML">§</a></h2>
+
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;mypicture.png&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;This is my picture&quot;</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>This tag has something new: <code class="docutils literal"><span class="pre">alt</span></code> and <code class="docutils literal"><span class="pre">src</span></code> are <em>attributes</em>.</p>
+<p>Attributes specify behaviors of the tag.</p>
+<p>Here, the <code class="docutils literal"><span class="pre">src</span></code> attribute indicates where to find the image, and the <code class="docutils literal"><span class="pre">alt</span></code> attribute defines an alternative text that will be displayed if the image cannot be loaded.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">An <code class="code html docutils literal"><span class="pre">img</span></code> tag does not need a closing tag.
+It is quite rare.</p>
+</div>
+
+
+
+<div class="slide-no">10</div>
+
+
+</article>
+<article class="slide level-2" id="step-6-image-3-3">
+
+<h2>Step 6 - Image (3/3)<a class="headerlink" href="../../html/html-part1.html#step-6-image-3-3" title="View HTML">§</a></h2>
+
+<p>Using the <code class="code html docutils literal"><span class="pre">img</span></code> tag you have just learned, include in <code class="code filename html docutils literal"><span class="pre">page1.html</span></code> a photo of <em>Sir Tim Berners Lee</em>. You will find and image in the directory named <code class="code filename html docutils literal"><span class="pre">images</span></code>.</p>
+<p>Be careful, as the photo is in the <code class="code filename html docutils literal"><span class="pre">images</span></code> directory, and because it is named &quot;Sir_Tim_Berners_Lee.jpg&quot;, the <code class="docutils literal"><span class="pre">alt</span></code> attribute should be: <code class="docutils literal"><span class="pre">alt=&quot;images/Sir_Tim_Berners_Lee.jpg</span></code>.</p>
+
+
+
+<div class="slide-no">11</div>
+
+
+</article>
+<article class="slide level-2" id="step-7-links">
+
+<h2>Step 7 - Links<a class="headerlink" href="../../html/html-part1.html#step-7-links" title="View HTML">§</a></h2>
+
+<p>HyperText is all about links... so let's make <strong>links</strong>.</p>
+<p>There are two types of links: internal links (between your pages) and external links (to the web).
+In both cases we use the same tag.</p>
+<p>Let's see an example:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;http://www.w3c.org&quot;</span><span class="p">&gt;</span>Click here to go to the W3C web page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Like the <code class="code html docutils literal"><span class="pre">img</span></code> tag, the <code class="code html docutils literal"><span class="pre">a</span></code> tag has an attribute: <code class="docutils literal"><span class="pre">href</span></code>.</p>
+<p>Like most of the other tags, the <code class="code html docutils literal"><span class="pre">a</span></code> element has a start and a end tag.</p>
+
+
+
+<div class="slide-no">12</div>
+
+
+</article>
+<article class="slide level-2" id="id1">
+
+<h2>Step 7 - Links<a class="headerlink" href="../../html/html-part1.html#id1" title="View HTML">§</a></h2>
+
+<p>Using the tag you've just learned (see below), add a link around the address at the bottom of the page.</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;http://www.w3c.org&quot;</span><span class="p">&gt;</span>Click here to go to the W3C web page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Try it in your browser!</p>
+
+
+
+<div class="slide-no">13</div>
+
+
+</article>
+<article class="slide level-2" id="step-7-internal-links">
+
+<h2>Step 7 - Internal links<a class="headerlink" href="../../html/html-part1.html#step-7-internal-links" title="View HTML">§</a></h2>
+
+<p>Making internal links is like making external links.</p>
+<p>The only difference is that the <code class="docutils literal"><span class="pre">href</span></code> attribute of the <code class="code html docutils literal"><span class="pre">a</span></code> tag contains the name of the page you want to link instead of a web address.</p>
+<p>For example, if you have two pages in the same directory, say <code class="code filename html docutils literal"><span class="pre">page0.html</span></code> and <code class="code filename html docutils literal"><span class="pre">page1.html</span></code>, then, on <code class="code filename html docutils literal"><span class="pre">page0.html</span></code>, you can add the following code:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;page1.html&quot;</span><span class="p">&gt;</span>This is a link to page 1<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>It's your time to try!</p>
+<p><strong>Add links</strong> on your pages and make sure you are able to navigate from one page to the other, and back.</p>
+
+
+
+<div class="slide-no">14</div>
+
+
+</article>
+<article class="slide level-2" id="summary">
+
+<h2>Summary<a class="headerlink" href="../../html/html-part1.html#summary" title="View HTML">§</a></h2>
+
+<p>HTML is the language we use to build web pages.</p>
+<p>A web browser reads HTML code and interprets it to display the corresponding web page.</p>
+<p>HTML defines many elements and is written with tags (start tag and end tag) such as <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;</span></span><span class="name tag"><span class="pre">p</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code> and <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;/</span></span><span class="name tag"><span class="pre">p</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code>.</p>
+<p>Some elements may have attributes such as in the followig example:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;page3.html&quot;</span><span class="p">&gt;</span>This is a link to page 3<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+
+
+
+<div class="slide-no">15</div>
+
+
+</article>
+
+</section>
+
+<section id="slide_notes">
+
+</section>
+
+  </body>
+</html>

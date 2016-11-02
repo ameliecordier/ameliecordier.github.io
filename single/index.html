@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>HTML5 and CSS3 for teens</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootswatch-3.3.6/flatly/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2016-11-02',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="None" href="index.html#document-index" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html#document-index">
+          Initiation to HTML and CSS</a>
+        <span class="navbar-text navbar-version pull-left"><b>2016-11-02</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html#document-index">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-intro">Before we start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-html">HTML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-css">CSS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-practical-work">Practical Work</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-intro">Before we start</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#what-is-internet">What is internet?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#what-is-the-web">What is the Web?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#the-first-web-page">The first web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#who-created-the-first-web-page">Who created the first web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#what-s-behind-the-scene">What&#8217;s behind the scene?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#role-of-the-web-browser">Role of the web browser</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-html">HTML</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-html-part1">Part 1 - Elements and tags</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-1-two-sides-of-an-html-page-code-and-display">Step 1 - Two sides of an HTML page: code and display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-2-your-first-edit">Step 2 - Your first edit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#remember">Remember...</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-3-html-tags">Step 3 - HTML tags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#understanding-html-tags">Understanding HTML tags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-4-let-s-try-another-tag">Step 4 - Let&#8217;s try another tag</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-5-more-html-tags">Step 5 - More HTML tags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-6-image-1-3">Step 6 - Image (1/3)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-6-image-2-3">Step 6 - Image (2/3)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-6-image-3-3">Step 6 - Image (3/3)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-7-links">Step 7 - Links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#id1">Step 7 - Links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-7-internal-links">Step 7 - Internal links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-html-part2">Part 2 - More HTML elements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="index.html#nested-elements">Nested elements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#nested-elements-be-careful">Nested elements: be careful!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#headings">Headings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#headings-expected-result">Headings - expected result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#lists">Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#ordered-list">Ordered list</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#unordered-list">Unordered list</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#make-your-own-lists">Make your own lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#make-your-own-lists-expected-result">Make your own lists - expected result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#summary-and-a-piece-of-advice">Summary and a piece of advice</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-css">CSS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-css-part1">Part 1 - Where the magic happens</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="index.html#introduction-to-css">Introduction to CSS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#what-have-we-done-to-change-the-style-of-the-page">What have we done to change the style of the page?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#what-is-css">What is CSS?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#let-s-see-how-css-works">Let&#8217;s see how CSS works!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#what-is-a-css-rule">What is a CSS rule?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#want-to-see-more-examples">Want to see more examples?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-css-part2">Part 2 - Focus on some CSS rules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="index.html#many-many-rules">Many many rules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#styling-the-text">Styling the text</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#changing-the-backgroung">Changing the backgroung</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#lists">Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#borders">Borders</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-practical-work">Practical Work</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#anatomy-of-a-webpage">Anatomy of a webpage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#now-it-s-time-to-create-your-own-web-page">Now it&#8217;s time to create your own web page!</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-intro">Before we start</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#what-is-internet">What is internet?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#what-is-the-web">What is the Web?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#the-first-web-page">The first web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#who-created-the-first-web-page">Who created the first web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#what-s-behind-the-scene">What&#8217;s behind the scene?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#role-of-the-web-browser">Role of the web browser</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-html">HTML</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-html-part1">Part 1 - Elements and tags</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-1-two-sides-of-an-html-page-code-and-display">Step 1 - Two sides of an HTML page: code and display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-2-your-first-edit">Step 2 - Your first edit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#remember">Remember...</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-3-html-tags">Step 3 - HTML tags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#understanding-html-tags">Understanding HTML tags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-4-let-s-try-another-tag">Step 4 - Let&#8217;s try another tag</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-5-more-html-tags">Step 5 - More HTML tags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-6-image-1-3">Step 6 - Image (1/3)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-6-image-2-3">Step 6 - Image (2/3)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-6-image-3-3">Step 6 - Image (3/3)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-7-links">Step 7 - Links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#id1">Step 7 - Links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#step-7-internal-links">Step 7 - Internal links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-html-part2">Part 2 - More HTML elements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="index.html#nested-elements">Nested elements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#nested-elements-be-careful">Nested elements: be careful!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#headings">Headings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#headings-expected-result">Headings - expected result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#lists">Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#ordered-list">Ordered list</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#unordered-list">Unordered list</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#make-your-own-lists">Make your own lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#make-your-own-lists-expected-result">Make your own lists - expected result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#summary-and-a-piece-of-advice">Summary and a piece of advice</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-css">CSS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-css-part1">Part 1 - Where the magic happens</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="index.html#introduction-to-css">Introduction to CSS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#what-have-we-done-to-change-the-style-of-the-page">What have we done to change the style of the page?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#what-is-css">What is CSS?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#let-s-see-how-css-works">Let&#8217;s see how CSS works!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#what-is-a-css-rule">What is a CSS rule?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#want-to-see-more-examples">Want to see more examples?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-css-part2">Part 2 - Focus on some CSS rules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="index.html#many-many-rules">Many many rules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#styling-the-text">Styling the text</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#changing-the-backgroung">Changing the backgroung</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#lists">Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#borders">Borders</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-practical-work">Practical Work</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#anatomy-of-a-webpage">Anatomy of a webpage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#now-it-s-time-to-create-your-own-web-page">Now it&#8217;s time to create your own web page!</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>Slides</h3>
+  <ul class="this-page-menu">
+    <li><a href="slides/index.html"
+           rel="nofollow">View as slides</a></li>
+  </ul>
+<form action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="ac-printable section" id="initiation-to-html5-and-css">
+<h1>Initiation to HTML5 and CSS<a class="headerlink" href="#initiation-to-html5-and-css" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#initiation-to-html5-and-css" title="Slides">§</a></h1>
+<p>Version: 2016-11-02</p>
+<div class="section" id="table-of-contents">
+<h2>Table of contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#table-of-contents" title="Slides">§</a></h2>
+<div class="toctree-wrapper compound">
+<span id="document-intro"></span><div class="section" id="before-we-start">
+<h3>Before we start<a class="headerlink" href="#before-we-start" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#before-we-start" title="Slides">§</a></h3>
+<div class="section" id="what-is-internet">
+<h4>What is internet?<a class="headerlink" href="#what-is-internet" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#what-is-internet" title="Slides">§</a></h4>
+<p>Internet is a network of connected devices.</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/internet.png"><img alt="The web." src="_images/internet.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="what-is-the-web">
+<h4>What is the Web?<a class="headerlink" href="#what-is-the-web" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#what-is-the-web" title="Slides">§</a></h4>
+<p>The web is <strong>only</strong> a service of internet.</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/web.png"><img alt="The web." src="_images/web.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="the-first-web-page">
+<h4>The first web page?<a class="headerlink" href="#the-first-web-page" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#the-first-web-page" title="Slides">§</a></h4>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/firstwebpage.png"><img alt="The first web page!" src="_images/firstwebpage.png" style="width: 100%;" /></a>
+</div>
+<p>Want to learn more about it?</p>
+<p><a class="reference external" href="http://info.cern.ch/hypertext/WWW/TheProject.html">http://info.cern.ch/hypertext/WWW/TheProject.html</a></p>
+</div>
+<div class="section" id="who-created-the-first-web-page">
+<h4>Who created the first web page?<a class="headerlink" href="#who-created-the-first-web-page" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#who-created-the-first-web-page" title="Slides">§</a></h4>
+<p>Sir Tim Berners Lee dit it!</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/TBL.jpg"><img alt="Sir Tim Berners Lee" src="_images/TBL.jpg" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="what-s-behind-the-scene">
+<h4>What&#8217;s behind the scene?<a class="headerlink" href="#what-s-behind-the-scene" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#what-s-behind-the-scene" title="Slides">§</a></h4>
+<p>This is an overview of the HTML code of THIS page. Don&#8217;t be afraid, you will learn to write this today!</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="_images/code.png"><img alt="html code!" src="_images/code.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="role-of-the-web-browser">
+<h4>Role of the web browser<a class="headerlink" href="#role-of-the-web-browser" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#role-of-the-web-browser" title="Slides">§</a></h4>
+<p>Remember: the web browser (Firefox, Chrome, Opera, Safari) is in charge of reading the HTML source code and to translate it in beautiful web pages easy to read for you!</p>
+</div>
+</div>
+<span id="document-html"></span><div class="ac-printable section" id="html">
+<h3>HTML<a class="headerlink" href="#html" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#html" title="Slides">§</a></h3>
+<div class="toctree-wrapper compound">
+<span id="document-html-part1"></span><div class="section" id="part-1-elements-and-tags">
+<h4>Part 1 - Elements and tags<a class="headerlink" href="#part-1-elements-and-tags" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#part-1-elements-and-tags" title="Slides">§</a></h4>
+<div class="section" id="step-1-two-sides-of-an-html-page-code-and-display">
+<h5>Step 1 - Two sides of an HTML page: code and display<a class="headerlink" href="#step-1-two-sides-of-an-html-page-code-and-display" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#step-1-two-sides-of-an-html-page-code-and-display" title="Slides">§</a></h5>
+<ul class="simple">
+<li>Open <code class="code filename html docutils literal"><span class="pre">page0.html</span></code> in a web browser. Don&#8217;t close it.</li>
+<li>Open <code class="code filename html docutils literal"><span class="pre">page0.html</span></code> in a text editor and observe the code. Don&#8217;t close this file neither.</li>
+<li>Learn to switch between the text editor and the browser, for example, by using <code class="docutils literal"><span class="pre">Alt+Tab</span></code> on the keyboard.</li>
+</ul>
+</div>
+<div class="section" id="step-2-your-first-edit">
+<h5>Step 2 - Your first edit<a class="headerlink" href="#step-2-your-first-edit" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#step-2-your-first-edit" title="Slides">§</a></h5>
+<ul class="simple">
+<li>Edit the code of the <code class="code filename html docutils literal"><span class="pre">page0.html</span></code> in the text editor. For example, add your <strong>firstname</strong> where it should be.</li>
+<li>Save your changes in the text editor.</li>
+<li>Reload the page in the browser and make sure your changes are visible.</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Learn the shortcuts: <code class="code shortcut html docutils literal"><span class="pre">F5</span></code> to reload the page in the browser, <code class="code shortcut html docutils literal"><span class="pre">Ctrl+S</span></code> to save your file in the editor.</p>
+</div>
+</div>
+<div class="section" id="remember">
+<h5>Remember...<a class="headerlink" href="#remember" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#remember" title="Slides">§</a></h5>
+<ul class="simple">
+<li>Do not forget to save your edits in the text editor before refreshing a page.</li>
+<li>You do not need to close the editor nor the web browser.</li>
+<li>The <code class="docutils literal"><span class="pre">Alt+Tab</span></code> shortcut is convenient to switch between the two applications.</li>
+</ul>
+</div>
+<div class="section" id="step-3-html-tags">
+<h5>Step 3 - HTML tags<a class="headerlink" href="#step-3-html-tags" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#step-3-html-tags" title="Slides">§</a></h5>
+<p>HTML is based on <span class="dfn">elements</span>. An element indicates that a part of the document has a specific role.</p>
+<p>For example, if you want to stress your name in the sentence, you can use the <code class="code html docutils literal"><span class="pre">em</span></code> element.</p>
+<p>The <code class="code html docutils literal"><span class="pre">em</span></code> element is identified by a start tag and a end tag.</p>
+<p>Here is an example. Try it!</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span>My name is <span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span>Amélie<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>And this is the result:</p>
+<section class="rendered">
+  My name is <em>Amélie</em>
+</section></div>
+<div class="section" id="understanding-html-tags">
+<h5>Understanding HTML tags<a class="headerlink" href="#understanding-html-tags" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#understanding-html-tags" title="Slides">§</a></h5>
+<p>Most of the time, HTML elements have a <em>start tag</em> and a <em>end tag</em>.</p>
+<p>Tags names are written inside angle brackets (greater than &amp; less than symbols: “&lt;” &amp; “&gt;”)</p>
+<p>In the end tag, the tag name is preceded with a forward slash (/) sign.</p>
+<p>For the element <strong>em</strong>, the start tag and end tag are:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span> and <span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="step-4-let-s-try-another-tag">
+<h5>Step 4 - Let&#8217;s try another tag<a class="headerlink" href="#step-4-let-s-try-another-tag" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#step-4-let-s-try-another-tag" title="Slides">§</a></h5>
+<p>This is your <strong>first</strong> web page, it is very important!</p>
+<p>Try to use the <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;</span></span><span class="name tag"><span class="pre">strong</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code> tag around the word <strong>first</strong> in the web page.</p>
+<p>Admire the result in your browser.</p>
+</div>
+<div class="section" id="step-5-more-html-tags">
+<h5>Step 5 - More HTML tags<a class="headerlink" href="#step-5-more-html-tags" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#step-5-more-html-tags" title="Slides">§</a></h5>
+<ul>
+<li><p class="first">Open <code class="code filename html docutils literal"><span class="pre">page1.html</span></code> on your text editor and on your web browser (a good idea is to use a new tab in both cases).</p>
+</li>
+<li><dl class="first docutils">
+<dt>Hum... the presentation is not what we expect. Let&#8217;s change that!</dt>
+<dd><ul class="first last simple">
+<li>The tag <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;</span></span><span class="name tag"><span class="pre">h1</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code> is for headings. Use it to define the title of the page.</li>
+<li>The tag <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;</span></span><span class="name tag"><span class="pre">p</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code> is for paragraph. Try it!</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Check the result on your web browser.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="step-6-image-1-3">
+<h5>Step 6 - Image (1/3)<a class="headerlink" href="#step-6-image-1-3" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#step-6-image-1-3" title="Slides">§</a></h5>
+<p>It&#8217;s time to add an image in your page.</p>
+<p>The element for including an image is <strong>em</strong> and the corresponding tag is <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;</span></span><span class="name tag"><span class="pre">img</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code>.</p>
+<p>Here is an example:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;TBL.jpg&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;Inventor of the Web: Tim Berners Lee&quot;</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>And this is the result:</p>
+<section class="rendered">
+      <img width="45%" style="float:right;" src="../_static/TBL.jpg" alt="Inventor of the Web: Tim Berners Lee">
+</section></div>
+<div class="section" id="step-6-image-2-3">
+<h5>Step 6 - Image (2/3)<a class="headerlink" href="#step-6-image-2-3" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#step-6-image-2-3" title="Slides">§</a></h5>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;mypicture.png&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;This is my picture&quot;</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>This tag has something new: <code class="docutils literal"><span class="pre">alt</span></code> and <code class="docutils literal"><span class="pre">src</span></code> are <em>attributes</em>.</p>
+<p>Attributes specify behaviors of the tag.</p>
+<p>Here, the <code class="docutils literal"><span class="pre">src</span></code> attribute indicates where to find the image, and the <code class="docutils literal"><span class="pre">alt</span></code> attribute defines an alternative text that will be displayed if the image cannot be loaded.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">An <code class="code html docutils literal"><span class="pre">img</span></code> tag does not need a closing tag.
+It is quite rare.</p>
+</div>
+</div>
+<div class="section" id="step-6-image-3-3">
+<h5>Step 6 - Image (3/3)<a class="headerlink" href="#step-6-image-3-3" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#step-6-image-3-3" title="Slides">§</a></h5>
+<p>Using the <code class="code html docutils literal"><span class="pre">img</span></code> tag you have just learned, include in <code class="code filename html docutils literal"><span class="pre">page1.html</span></code> a photo of <em>Sir Tim Berners Lee</em>. You will find and image in the directory named <code class="code filename html docutils literal"><span class="pre">images</span></code>.</p>
+<p>Be careful, as the photo is in the <code class="code filename html docutils literal"><span class="pre">images</span></code> directory, and because it is named &#8220;Sir_Tim_Berners_Lee.jpg&#8221;, the <code class="docutils literal"><span class="pre">alt</span></code> attribute should be: <code class="docutils literal"><span class="pre">alt=&quot;images/Sir_Tim_Berners_Lee.jpg</span></code>.</p>
+</div>
+<div class="section" id="step-7-links">
+<h5>Step 7 - Links<a class="headerlink" href="#step-7-links" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#step-7-links" title="Slides">§</a></h5>
+<p>HyperText is all about links... so let&#8217;s make <strong>links</strong>.</p>
+<p>There are two types of links: internal links (between your pages) and external links (to the web).
+In both cases we use the same tag.</p>
+<p>Let&#8217;s see an example:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;http://www.w3c.org&quot;</span><span class="p">&gt;</span>Click here to go to the W3C web page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Like the <code class="code html docutils literal"><span class="pre">img</span></code> tag, the <code class="code html docutils literal"><span class="pre">a</span></code> tag has an attribute: <code class="docutils literal"><span class="pre">href</span></code>.</p>
+<p>Like most of the other tags, the <code class="code html docutils literal"><span class="pre">a</span></code> element has a start and a end tag.</p>
+</div>
+<div class="section" id="id1">
+<h5>Step 7 - Links<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#id1" title="Slides">§</a></h5>
+<p>Using the tag you&#8217;ve just learned (see below), add a link around the address at the bottom of the page.</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;http://www.w3c.org&quot;</span><span class="p">&gt;</span>Click here to go to the W3C web page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Try it in your browser!</p>
+</div>
+<div class="section" id="step-7-internal-links">
+<h5>Step 7 - Internal links<a class="headerlink" href="#step-7-internal-links" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#step-7-internal-links" title="Slides">§</a></h5>
+<p>Making internal links is like making external links.</p>
+<p>The only difference is that the <code class="docutils literal"><span class="pre">href</span></code> attribute of the <code class="code html docutils literal"><span class="pre">a</span></code> tag contains the name of the page you want to link instead of a web address.</p>
+<p>For example, if you have two pages in the same directory, say <code class="code filename html docutils literal"><span class="pre">page0.html</span></code> and <code class="code filename html docutils literal"><span class="pre">page1.html</span></code>, then, on <code class="code filename html docutils literal"><span class="pre">page0.html</span></code>, you can add the following code:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;page1.html&quot;</span><span class="p">&gt;</span>This is a link to page 1<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>It&#8217;s your time to try!</p>
+<p><strong>Add links</strong> on your pages and make sure you are able to navigate from one page to the other, and back.</p>
+</div>
+<div class="section" id="summary">
+<h5>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#summary" title="Slides">§</a></h5>
+<p>HTML is the language we use to build web pages.</p>
+<p>A web browser reads HTML code and interprets it to display the corresponding web page.</p>
+<p>HTML defines many elements and is written with tags (start tag and end tag) such as <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;</span></span><span class="name tag"><span class="pre">p</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code> and <code class="code html docutils literal"><span class="punctuation"><span class="pre">&lt;/</span></span><span class="name tag"><span class="pre">p</span></span><span class="punctuation"><span class="pre">&gt;</span></span></code>.</p>
+<p>Some elements may have attributes such as in the followig example:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;page3.html&quot;</span><span class="p">&gt;</span>This is a link to page 3<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<span id="document-html-part2"></span><div class="section" id="part-2-more-html-elements">
+<h4>Part 2 - More HTML elements<a class="headerlink" href="#part-2-more-html-elements" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#part-2-more-html-elements" title="Slides">§</a></h4>
+<div class="section" id="nested-elements">
+<h5>Nested elements<a class="headerlink" href="#nested-elements" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#nested-elements" title="Slides">§</a></h5>
+<p>HTML elements can be <strong>nested</strong> (elements can contain other elements).</p>
+<p>Example:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span> This is a <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>very important<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span> paragraph.<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>And this is the result:</p>
+<em> This is a <strong>very important</strong> paragraph.</em></div>
+<div class="section" id="nested-elements-be-careful">
+<h5>Nested elements: be careful!<a class="headerlink" href="#nested-elements-be-careful" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#nested-elements-be-careful" title="Slides">§</a></h5>
+<p>However, be careful when you include an element in another.</p>
+<p>For example, this is not correct:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span> This is a <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>very important<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span> paragraph.<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<em> This is a <strong>very important</em> paragraph.</strong><p>When incorrectly nested, Weird behavior and unexpected errors can occur!</p>
+</div>
+<div class="section" id="headings">
+<h5>Headings<a class="headerlink" href="#headings" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#headings" title="Slides">§</a></h5>
+<p>We have already seen the <code class="code html docutils literal"><span class="pre">h1</span></code> element to define a title (headings).</p>
+<p>You can have several levels of headings in your document: use <code class="code html docutils literal"><span class="pre">h2</span></code> for second level, <code class="code html docutils literal"><span class="pre">h3</span></code> for third level and so on.</p>
+<p>Open <code class="code filename html docutils literal"><span class="pre">page3.html</span></code> and edit the document to include headings.</p>
+<ul class="simple">
+<li>&#8220;What will I learn today?&#8221; should be a level 1 headings.</li>
+<li>&#8220;About the web&#8221;, &#8220;About HTML&#8221;, and &#8220;About CSS&#8221; should be level 2 headings.</li>
+</ul>
+<p>On the slide, you will see the expected result.</p>
+</div>
+<div class="section" id="headings-expected-result">
+<h5>Headings - expected result<a class="headerlink" href="#headings-expected-result" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#headings-expected-result" title="Slides">§</a></h5>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="../_static/headings.png"><img alt="expected result with headings" src="../_static/headings.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="lists">
+<h5>Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#lists" title="Slides">§</a></h5>
+<p>HTML defines two types of lists: ordered lists (<strong>ol</strong>), and unordered lists (<strong>ul</strong>).</p>
+<p>In both, a list item is identified by the <strong>li</strong> element.</p>
+<p>Let&#8217;s see some examples.</p>
+</div>
+<div class="section" id="ordered-list">
+<h5>Ordered list<a class="headerlink" href="#ordered-list" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#ordered-list" title="Slides">§</a></h5>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">ol</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Code<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Be proud!<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">ol</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<ol>
+  <li>Code</li>
+  <li>Test</li>
+  <li>Be proud!</li>
+</ol></div>
+<div class="section" id="unordered-list">
+<h5>Unordered list<a class="headerlink" href="#unordered-list" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#unordered-list" title="Slides">§</a></h5>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>HTML<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>CSS<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>JS<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+</ul></div>
+<div class="section" id="make-your-own-lists">
+<h5>Make your own lists<a class="headerlink" href="#make-your-own-lists" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#make-your-own-lists" title="Slides">§</a></h5>
+<p>Open <code class="code filename html docutils literal"><span class="pre">page3.html</span></code> and use the elements you&#8217;ve just discovered to add lists.</p>
+<p>The text is already written for you.</p>
+<p>The expected result is shown just after.</p>
+</div>
+<div class="section" id="make-your-own-lists-expected-result">
+<h5>Make your own lists - expected result<a class="headerlink" href="#make-your-own-lists-expected-result" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#make-your-own-lists-expected-result" title="Slides">§</a></h5>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="../_static/lists.png"><img alt="expected result with lists" src="../_static/lists.png" style="width: 65%;" /></a>
+</div>
+<p>If you have time, add a link from this page to <code class="code filename html docutils literal"><span class="pre">page2.html</span></code>, and from <code class="code filename html docutils literal"><span class="pre">page2.html</span></code> to this page!</p>
+</div>
+<div class="section" id="summary-and-a-piece-of-advice">
+<h5>Summary and a piece of advice<a class="headerlink" href="#summary-and-a-piece-of-advice" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#summary-and-a-piece-of-advice" title="Slides">§</a></h5>
+<ul class="simple">
+<li>Make sure your elements are correctly nested!</li>
+<li>(Nearly) all elements must be closed (except in some very rare cases such as img).</li>
+<li>Piece of advice: have you tried <code class="code shortcut html docutils literal"><span class="pre">F12</span></code> on your web browser? It is sometimes helpful... especially when you have a bug!</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<span id="document-css"></span><div class="ac-printable section" id="css">
+<h3>CSS<a class="headerlink" href="#css" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#css" title="Slides">§</a></h3>
+<div class="toctree-wrapper compound">
+<span id="document-css-part1"></span><div class="section" id="part-1-where-the-magic-happens">
+<h4>Part 1 - Where the magic happens<a class="headerlink" href="#part-1-where-the-magic-happens" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#part-1-where-the-magic-happens" title="Slides">§</a></h4>
+<div class="section" id="introduction-to-css">
+<h5>Introduction to CSS<a class="headerlink" href="#introduction-to-css" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#introduction-to-css" title="Slides">§</a></h5>
+<ul class="simple">
+<li>Open the file <code class="code filename html docutils literal"><span class="pre">discoveringCSS.html</span></code> in your browser and in your text editor.</li>
+<li>OK. Apparently, there is nothing new here.</li>
+<li>Now, search for the text <code class="code filename html docutils literal"><span class="pre">default.css</span></code> in the code, and replace it with <code class="code filename html docutils literal"><span class="pre">style1.css</span></code>.</li>
+<li>Save your edit and refresh your browser. Nice, isn&#8217;t it?</li>
+<li>Now, you can try to change <code class="code filename html docutils literal"><span class="pre">style1.css</span></code> in <code class="code filename html docutils literal"><span class="pre">style2.css</span></code>.</li>
+</ul>
+</div>
+<div class="section" id="what-have-we-done-to-change-the-style-of-the-page">
+<h5>What have we done to change the style of the page?<a class="headerlink" href="#what-have-we-done-to-change-the-style-of-the-page" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#what-have-we-done-to-change-the-style-of-the-page" title="Slides">§</a></h5>
+<p>We have used this special HTML element: <strong>link</strong>.</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;style1.css&quot;</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>The <strong>link</strong> element enables us to &#8220;include&#8221; other files in our web page.</p>
+<p>Here, we have included a <strong>Stylesheet</strong> writen in <strong>CSS</strong> that gives instructions to change the look of the page.</p>
+</div>
+<div class="section" id="what-is-css">
+<h5>What is CSS?<a class="headerlink" href="#what-is-css" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#what-is-css" title="Slides">§</a></h5>
+<ul class="simple">
+<li>CSS means Cascading StyleSheets.</li>
+<li>It is a special language to describe formating rules for web pages.</li>
+<li>For clarity, CSS rules are written in a separate file and are inculded in the HTML document <em>via</em> the <strong>link</strong> element.</li>
+</ul>
+</div>
+<div class="section" id="let-s-see-how-css-works">
+<h5>Let&#8217;s see how CSS works!<a class="headerlink" href="#let-s-see-how-css-works" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#let-s-see-how-css-works" title="Slides">§</a></h5>
+<ul class="simple">
+<li>Open the file <code class="code filename html docutils literal"><span class="pre">style1.css</span></code> and observe the code.</li>
+<li>As you can see, the code is quite different from HTML code.</li>
+<li>However, you may recognise some HTML elements names.</li>
+</ul>
+</div>
+<div class="section" id="what-is-a-css-rule">
+<h5>What is a CSS rule?<a class="headerlink" href="#what-is-a-css-rule" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#what-is-a-css-rule" title="Slides">§</a></h5>
+<p>A CSS rule includes is composed of two main elements: a <strong>selector</strong>, and a set of properties.</p>
+<ul class="simple">
+<li>The selector (<strong>em</strong> in the example below) indicates on which elements the rule will be applied.</li>
+<li>The properties (between brackets)  enable to define the expected appearance of the selected element.</li>
+</ul>
+<div class="highlight-html"><div class="highlight"><pre><span></span>em{
+   color: green;
+   font-size: 20px;
+}
+</pre></div>
+</div>
+<p>For example, this CSS rule means that all the <strong>em</strong> elements of your web page will be displayed in <strong>green</strong> and the size of the text will be <strong>20px</strong>.</p>
+</div>
+<div class="section" id="want-to-see-more-examples">
+<h5>Want to see more examples?<a class="headerlink" href="#want-to-see-more-examples" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#want-to-see-more-examples" title="Slides">§</a></h5>
+<p>If you want to have a look at what can be done with CSS, pay a visit to CSS Zen Garden <a class="reference external" href="http://www.csszengarden.com/">website</a></p>
+<p>On this website, you can see the same web page with many different styles. It is impressive!</p>
+</div>
+</div>
+<span id="document-css-part2"></span><div class="section" id="part-2-focus-on-some-css-rules">
+<h4>Part 2 - Focus on some CSS rules<a class="headerlink" href="#part-2-focus-on-some-css-rules" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#part-2-focus-on-some-css-rules" title="Slides">§</a></h4>
+<div class="section" id="many-many-rules">
+<h5>Many many rules<a class="headerlink" href="#many-many-rules" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#many-many-rules" title="Slides">§</a></h5>
+<p>CSS enables us to define many many rules for fonts, colors, sizes, positions, opacity, etc.</p>
+<p>If you look for a specific rule, a good entry point is the w3school website.</p>
+<p><a class="reference external" href="http://www.w3schools.com/">http://www.w3schools.com/</a></p>
+<p>In the following, we will see some basic rules so you can play with CSS.</p>
+</div>
+<div class="section" id="styling-the-text">
+<h5>Styling the text<a class="headerlink" href="#styling-the-text" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#styling-the-text" title="Slides">§</a></h5>
+<div class="highlight-css"><div class="highlight"><pre><span></span><span class="nt">text-align</span><span class="o">:</span> <span class="nt">center</span><span class="o">;</span>
+<span class="nt">text-decoration</span><span class="o">:</span> <span class="nt">none</span><span class="o">;</span>
+<span class="nt">text-transform</span><span class="o">:</span> <span class="nt">uppercase</span><span class="o">;</span>
+<span class="nt">font-style</span><span class="o">:</span> <span class="nt">normal</span><span class="o">;</span>
+<span class="nt">font-style</span><span class="o">:</span> <span class="nt">italic</span><span class="o">;</span>
+<span class="nt">font-style</span><span class="o">:</span> <span class="nt">oblique</span><span class="o">;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="changing-the-backgroung">
+<h5>Changing the backgroung<a class="headerlink" href="#changing-the-backgroung" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#changing-the-backgroung" title="Slides">§</a></h5>
+<div class="highlight-css"><div class="highlight"><pre><span></span><span class="nt">background-color</span><span class="o">:</span> <span class="nt">lightblue</span><span class="o">;</span>
+<span class="nt">background-image</span><span class="o">:</span> <span class="nt">url</span><span class="o">(</span><span class="s2">&quot;paper.gif&quot;</span><span class="o">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="lists">
+<h5>Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#lists" title="Slides">§</a></h5>
+<div class="highlight-css"><div class="highlight"><pre><span></span><span class="nt">list-style-type</span><span class="o">:</span> <span class="nt">circle</span><span class="o">;</span>
+<span class="nt">list-style-type</span><span class="o">:</span> <span class="nt">square</span><span class="o">;</span>
+<span class="nt">list-style-type</span><span class="o">:</span> <span class="nt">upper-roman</span><span class="o">;</span>
+<span class="nt">list-style-type</span><span class="o">:</span> <span class="nt">lower-alpha</span><span class="o">;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="borders">
+<h5>Borders<a class="headerlink" href="#borders" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#borders" title="Slides">§</a></h5>
+<div class="highlight-css"><div class="highlight"><pre><span></span><span class="nt">border-style</span><span class="o">:</span> <span class="nt">solid</span><span class="o">;</span>
+<span class="nt">border-width</span><span class="o">:</span> <span class="nt">5px</span><span class="o">;</span>
+<span class="nt">border-style</span><span class="o">:</span> <span class="nt">solid</span><span class="o">;</span>
+<span class="nt">border-width</span><span class="o">:</span> <span class="nt">medium</span><span class="o">;</span>
+<span class="nt">border-style</span><span class="o">:</span> <span class="nt">solid</span><span class="o">;</span>
+<span class="nt">border-width</span><span class="o">:</span> <span class="nt">2px</span> <span class="nt">10px</span> <span class="nt">4px</span> <span class="nt">20px</span><span class="o">;</span>
+<span class="nt">border-top-style</span><span class="o">:</span> <span class="nt">dotted</span><span class="o">;</span>
+<span class="nt">border-right-style</span><span class="o">:</span> <span class="nt">solid</span><span class="o">;</span>
+<span class="nt">border-bottom-style</span><span class="o">:</span> <span class="nt">dotted</span><span class="o">;</span>
+<span class="nt">border-left-style</span><span class="o">:</span> <span class="nt">solid</span><span class="o">;</span>
+<span class="nt">border</span><span class="o">:</span> <span class="nt">2px</span> <span class="nt">solid</span> <span class="nt">red</span><span class="o">;</span>
+<span class="nt">border-radius</span><span class="o">:</span> <span class="nt">5px</span><span class="o">;</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span id="document-practical-work"></span><div class="section" id="practical-work">
+<h3>Practical Work<a class="headerlink" href="#practical-work" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#practical-work" title="Slides">§</a></h3>
+<div class="section" id="anatomy-of-a-webpage">
+<h4>Anatomy of a webpage<a class="headerlink" href="#anatomy-of-a-webpage" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#anatomy-of-a-webpage" title="Slides">§</a></h4>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>My first web page<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    This is the body of my document,
+    where I write the content
+    of my web page.
+  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="now-it-s-time-to-create-your-own-web-page">
+<h4>Now it&#8217;s time to create your own web page!<a class="headerlink" href="#now-it-s-time-to-create-your-own-web-page" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#now-it-s-time-to-create-your-own-web-page" title="Slides">§</a></h4>
+<p>You have all the elements to create your own web page in HTML and to style it in CSS.</p>
+<dl class="docutils">
+<dt>If you need inspiration:</dt>
+<dd><ul class="first last simple">
+<li>Create a web page about you</li>
+<li>Create a web page about today</li>
+<li>Create the web page of your class</li>
+<li>Create a web page about your favourite artits / music band / sport...</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+</ul>
+</div>
+<div class="section" id="credits">
+<h2>Credits<a class="headerlink" href="#credits" title="Permalink to this headline">¶</a><a class="headerlink" href="slides/index.html#credits" title="Slides">§</a></h2>
+<p>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+<div class="figure align-center">
+<img alt="CC-BY-NC-SA" src="_images/cc-by-nc-sa.png" />
+</div>
+<p>Thank you to MixTeen for comments and improvements on this activity!</p>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016-2016, Amélie Cordier.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

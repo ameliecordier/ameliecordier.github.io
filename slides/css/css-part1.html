@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Part 1 - Where the magic happens &mdash; HTML5 and CSS3 for teens</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/styles.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/single.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../_static/../_static/ac-slides.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2016-11-02',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/common.js"></script>
+    
+    <script type="text/javascript" src="../_static/slides.js"></script>
+    <script type="text/javascript" src="../_static/sync.js"></script>
+    <script type="text/javascript" src="../_static/controller.js"></script>
+    <script type="text/javascript" src="../_static/init.js"></script>
+    
+    
+    <link rel="top" title="HTML5 and CSS3 for teens" href="../index.html" />
+    <link rel="up" title="CSS" href="index.html" />
+    <link rel="next" title="Part 2 - Focus on some CSS rules" href="css-part2.html" />
+    <link rel="prev" title="CSS" href="index.html" /> 
+  </head>
+  <body>
+
+<section
+   id="slide_container"
+   class='slides layout-regular'>
+
+
+  
+<article class="slide level-1" id="part-1-where-the-magic-happens">
+
+<h1>Part 1 - Where the magic happens<a class="headerlink" href="../../css/css-part1.html#part-1-where-the-magic-happens" title="View HTML">§</a></h1>
+
+
+
+
+<div class="slide-no">1</div>
+
+
+</article>
+<article class="slide level-2" id="introduction-to-css">
+
+<h2>Introduction to CSS<a class="headerlink" href="../../css/css-part1.html#introduction-to-css" title="View HTML">§</a></h2>
+
+<ul class="simple">
+<li>Open the file <code class="code filename html docutils literal"><span class="pre">discoveringCSS.html</span></code> in your browser and in your text editor.</li>
+<li>OK. Apparently, there is nothing new here.</li>
+<li>Now, search for the text <code class="code filename html docutils literal"><span class="pre">default.css</span></code> in the code, and replace it with <code class="code filename html docutils literal"><span class="pre">style1.css</span></code>.</li>
+<li>Save your edit and refresh your browser. Nice, isn't it?</li>
+<li>Now, you can try to change <code class="code filename html docutils literal"><span class="pre">style1.css</span></code> in <code class="code filename html docutils literal"><span class="pre">style2.css</span></code>.</li>
+</ul>
+
+
+
+<div class="slide-no">2</div>
+
+
+</article>
+<article class="slide level-2" id="what-have-we-done-to-change-the-style-of-the-page">
+
+<h2>What have we done to change the style of the page?<a class="headerlink" href="../../css/css-part1.html#what-have-we-done-to-change-the-style-of-the-page" title="View HTML">§</a></h2>
+
+<p>We have used this special HTML element: <strong>link</strong>.</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;style1.css&quot;</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>The <strong>link</strong> element enables us to &quot;include&quot; other files in our web page.</p>
+<p>Here, we have included a <strong>Stylesheet</strong> writen in <strong>CSS</strong> that gives instructions to change the look of the page.</p>
+
+
+
+<div class="slide-no">3</div>
+
+
+</article>
+<article class="slide level-2" id="what-is-css">
+
+<h2>What is CSS?<a class="headerlink" href="../../css/css-part1.html#what-is-css" title="View HTML">§</a></h2>
+
+<ul class="simple">
+<li>CSS means Cascading StyleSheets.</li>
+<li>It is a special language to describe formating rules for web pages.</li>
+<li>For clarity, CSS rules are written in a separate file and are inculded in the HTML document <em>via</em> the <strong>link</strong> element.</li>
+</ul>
+
+
+
+<div class="slide-no">4</div>
+
+
+</article>
+<article class="slide level-2" id="let-s-see-how-css-works">
+
+<h2>Let's see how CSS works!<a class="headerlink" href="../../css/css-part1.html#let-s-see-how-css-works" title="View HTML">§</a></h2>
+
+<ul class="simple">
+<li>Open the file <code class="code filename html docutils literal"><span class="pre">style1.css</span></code> and observe the code.</li>
+<li>As you can see, the code is quite different from HTML code.</li>
+<li>However, you may recognise some HTML elements names.</li>
+</ul>
+
+
+
+<div class="slide-no">5</div>
+
+
+</article>
+<article class="slide level-2" id="what-is-a-css-rule">
+
+<h2>What is a CSS rule?<a class="headerlink" href="../../css/css-part1.html#what-is-a-css-rule" title="View HTML">§</a></h2>
+
+<p>A CSS rule includes is composed of two main elements: a <strong>selector</strong>, and a set of properties.</p>
+<ul class="simple">
+<li>The selector (<strong>em</strong> in the example below) indicates on which elements the rule will be applied.</li>
+<li>The properties (between brackets)  enable to define the expected appearance of the selected element.</li>
+</ul>
+<div class="highlight-html"><div class="highlight"><pre><span></span>em{
+   color: green;
+   font-size: 20px;
+}
+</pre></div>
+</div>
+<p>For example, this CSS rule means that all the <strong>em</strong> elements of your web page will be displayed in <strong>green</strong> and the size of the text will be <strong>20px</strong>.</p>
+
+
+
+<div class="slide-no">6</div>
+
+
+</article>
+<article class="slide level-2" id="want-to-see-more-examples">
+
+<h2>Want to see more examples?<a class="headerlink" href="../../css/css-part1.html#want-to-see-more-examples" title="View HTML">§</a></h2>
+
+<p>If you want to have a look at what can be done with CSS, pay a visit to CSS Zen Garden <a class="reference external" href="http://www.csszengarden.com/">website</a></p>
+<p>On this website, you can see the same web page with many different styles. It is impressive!</p>
+
+
+
+<div class="slide-no">7</div>
+
+
+</article>
+
+</section>
+
+<section id="slide_notes">
+
+</section>
+
+  </body>
+</html>
